@@ -1,0 +1,43 @@
+[06:38:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:38:59] [ServerMain/INFO]: Loaded 1290 recipes
+[06:38:59] [ServerMain/INFO]: Loaded 1399 advancements
+[06:39:00] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[06:39:00] [Server thread/INFO]: Loading properties
+[06:39:00] [Server thread/INFO]: Default game type: SURVIVAL
+[06:39:00] [Server thread/INFO]: Generating keypair
+[06:39:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:39:00] [Server thread/INFO]: Using epoll channel type
+[06:39:00] [Server thread/INFO]: Preparing level "world"
+[06:39:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:39:07] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:39:07] [Worker-Main-1/INFO]: Preparing spawn area: 24%
+[06:39:07] [Server thread/INFO]: Time elapsed: 687 ms
+[06:39:07] [Server thread/INFO]: Done (7.219s)! For help, type "help"
+[06:39:15] [User Authenticator #1/INFO]: UUID of player Icuzzz_ is c7031b57-62fb-4e59-b0c1-0408534c54fc
+[06:39:16] [Server thread/INFO]: Icuzzz_[/127.238.152.180:58177] logged in with entity id 30 at (-84.1630342643916, 70.0, -143.13214963835634)
+[06:39:16] [Server thread/INFO]: Icuzzz_ joined the game
+[06:40:13] [User Authenticator #2/INFO]: UUID of player Juancubito_ is d6d46b22-1b7d-4c4d-b4a2-4cc11586f9c6
+[06:40:14] [Server thread/INFO]: Juancubito_[/127.66.138.174:41901] logged in with entity id 413 at (-86.42003344700433, 71.0, -141.27104357373818)
+[06:40:14] [Server thread/INFO]: Juancubito_ joined the game
+[06:54:40] [Server thread/INFO]: <Icuzzz_> zzzz
+[07:15:48] [Server thread/INFO]: Juancubito_ lost connection: Disconnected
+[07:15:48] [Server thread/INFO]: Juancubito_ left the game
+[07:15:50] [Server thread/INFO]: Icuzzz_ lost connection: Disconnected
+[07:15:50] [Server thread/INFO]: Icuzzz_ left the game
+[07:16:14] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at apn$1.run(SourceFile:103) [server-1.21.1.jar:?]
